@@ -7,11 +7,10 @@ st.set_page_config(layout="wide")
 
 # Define the URLs for each file
 url_teams = 'https://docs.google.com/spreadsheets/d/1-N-hlWJdnkbF6ePO1zJuyCRa1qNCTtPH/export?format=xlsx'  # Change to xlsx
-url_players = 'https://drive.google.com/uc?id=1-xZMpajd6txA8JB93TNQ3mxrKI7EiMvO'
-url_offensive_log = 'https://drive.google.com/uc?id=1-wkMZxp0qFPEfhgJ5zaScgpvl377j9v6'
-url_defensive_log = 'https://drive.google.com/uc?id=1-rXbI5ouZ1h9fED26rvIDepgkk8xKnAc'
-url_team_defensive_info = 'https://drive.google.com/uc?id=10-imJo7k6ox5fHYtaWqkYu13jkzAuqQo'
-
+url_players = 'https://drive.google.com/uc?id=1091grMf7sehBHvp-DtuJhNGULjrzz1Dt&export=download'
+url_offensive_log = 'https://drive.google.com/uc?id=105TH-yx4Bo-7z1adI_RSGI9dxyNqHWbc&export=download'
+url_defensive_log = 'https://drive.google.com/uc?id=106CX2NVg5avHM4yYnqSC_jVqsNm18w-x&export=download'
+url_team_defensive_info = 'https://drive.google.com/uc?id=10F1AU7FEYLWs64Ld3-C_S_-NeAhu1pk_&export=download'
 # Load the Excel file for teams
 df_teams = pd.read_excel(url_teams)
 
